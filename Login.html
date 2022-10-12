@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Heart Care Centre</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="nav.jpg.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Heart Care Centre</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://share.streamlit.io/prakharjauhari/heart_care_centre/main/Heart-Disease-Web-Application/app/app.py">Predictor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.lalpathlabs.com/patients.aspx">Blood Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videocall.html">Start Consulting</a>
+                    </li>        
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Medications
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/results?search_query=heart+disease+remedies">Home
+                                    Remedies</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/results?search_query=exercises+for+heart+patients">Exercise</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/results?search_query=yoga+for+heart+patients">Yoga And
+                                    Meditation</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="Login.html"> <button class="btn btn-danger float-right"> Login </button> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="loginstyle.css">
+        <body>
+            <div class="container">
+
+            <div id="login_div" class="main-div">
+                <h3>HEART CARE CENTRE</h3>
+                <input type="email" placeholder="Email..." id="email_field" />
+                <input type="password" placeholder="Password..." id="password_field" />
+                <button onclick="login()">Login to Account</button>
+            </div>
+
+            <div id="user_div" class="loggedin-div">
+                <h3>Welcome User</h3>
+                <p id="user_para">Welcome to Heart care centre. You're currently logged in.</p>
+                <li> <a href="index.html"> <button class="btn btn-danger float-right">Home</button> </a> </li>
+                <button onclick="logout()">Logout</button>
+            </div>
+             <li> <a href="signup.html"> <button class="btn btn-danger float-right">Sign up for free</button> </a> </li>    
+
+
+
+            <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+            <script>
+                // Initialize Firebase
+                var firebaseConfig = {
+                    apiKey: "AIzaSyC8LmW7whQc2AhY37VtoYt9Er5VpDjALLs",
+                    authDomain: "contactus-fe046.firebaseapp.com",
+                    projectId: "contactus-fe046",
+                    storageBucket: "contactus-fe046.appspot.com",
+                    messagingSenderId: "609105220014",
+                    appId: "1:609105220014:web:af4859f059ae51d9b5b83f",
+                    measurementId: "G-9ZDER4JPCF"
+                };
+
+
+
+
+                firebase.initializeApp(firebaseConfig);
+            </script>
+            <script src="login.js"></script>
+
+        </div>
+
+
+
+
+
+        </body>
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>© heartcarecentre· <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
+
+</body>
+
+</html>
